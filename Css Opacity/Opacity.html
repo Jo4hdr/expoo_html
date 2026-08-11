@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de Opacity</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #e8f5e9;
+        }
+
+        h1 {
+            color: darkgreen;
+        }
+
+        .caja {
+            width: 300px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: green;
+            color: white;
+
+            /* Cambia la transparencia */
+            opacity: 0.5;
+        }
+
+        .caja:hover {
+            /* Al pasar el mouse vuelve a ser visible */
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Ejemplo de CSS Opacity</h1>
+
+    <p>Pasa el mouse sobre la caja:</p>
+
+    <div class="caja">
+        Esta caja tiene opacity: 0.5
+    </div>
+
+</body>
+</html>
